@@ -55,11 +55,10 @@ The goal is to classify movie reviews into **Positive** or **Negative** sentimen
 ## 📁 Project Structure
 
 ```
-IMDB-Sentiment-Analysis/
+IMDB-Sentiment-Analysis/Jupyter NoteBook
 │
 ├── notebook.ipynb
 ├── IMDB Dataset.csv
-├── output_visualizations/
 └── README.md
 ```
 
