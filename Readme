@@ -1,0 +1,164 @@
+📌 Project Overview
+
+This project performs complete end-to-end Sentiment Analysis on the IMDB 50K Movie Reviews Dataset using Natural Language Processing (NLP), Data Mining techniques, and Machine Learning models.
+
+The goal is to classify movie reviews as Positive or Negative using multiple algorithms and visualize the entire workflow in a professional Jupyter Notebook pipeline.
+
+🚀 Key Features
+
+✔ Data Loading & Cleaning
+
+✔ Exploratory Data Analysis (EDA)
+
+✔ Advanced Text Preprocessing
+
+✔ Feature Engineering & Data Mining
+
+✔ TF-IDF Vectorization
+
+✔ Multiple Machine Learning Models
+
+✔ Hyperparameter Tuning
+
+✔ Topic Modeling (LDA)
+
+✔ Professional Visualizations
+
+✔ Fully Documented Notebook
+
+📊 Algorithms Used
+Category	Techniques
+NLP	Tokenization, Stopwords Removal, Lemmatization
+Vectorization	TF-IDF, N-Grams
+Classification Models	Logistic Regression, Naive Bayes, Linear SVM, Random Forest, Decision Tree, Gradient Boosting
+Evaluation	Accuracy, Precision, Recall, F1 Score, Confusion Matrix
+Data Mining	Word Frequency, Topic Modeling (LDA)
+📁 Project Structure
+IMDB-Sentiment-Analysis/
+│
+├── notebook.ipynb
+├── IMDB Dataset.csv
+├── output_visualizations/
+│   ├── eda_visualizations.png
+│   ├── word_frequency.png
+│   ├── wordclouds.png
+│   ├── model_comparison.png
+│   ├── confusion_matrices.png
+│
+└── README.md
+
+📦 Dataset
+
+IMDB Dataset of 50K Movie Reviews
+🔗 https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+
+Dataset Details:
+
+Total Reviews: 50,000
+
+Classes: Positive & Negative
+
+Balanced Dataset
+
+⚙️ Installation & Setup
+1️⃣ Clone Repository
+git clone https://github.com/yourusername/IMDB-Sentiment-Analysis.git
+cd IMDB-Sentiment-Analysis
+
+2️⃣ Install Dependencies
+pip install -r requirements.txt
+
+
+Or manually:
+
+pip install numpy pandas matplotlib seaborn scikit-learn nltk wordcloud
+
+3️⃣ Download Dataset
+
+Download the dataset from Kaggle and place:
+
+IMDB Dataset.csv
+
+
+inside project root folder.
+
+4️⃣ Run Notebook
+jupyter notebook
+
+
+Open:
+
+notebook.ipynb
+
+
+Run all cells.
+
+📈 Output Visualizations
+
+The project automatically generates and saves:
+
+📊 EDA Visualizations
+
+🔥 Word Frequency Graphs
+
+☁ Word Clouds
+
+📉 Model Comparison Charts
+
+🧮 Confusion Matrices
+
+All files are saved in:
+
+output_visualizations/
+
+🏆 Model Performance Summary
+Model	Accuracy
+Logistic Regression	⭐ Best
+Linear SVM	Excellent
+Naive Bayes	Very Good
+Random Forest	Good
+Gradient Boosting	Good
+Decision Tree	Average
+
+Logistic Regression + TF-IDF performed best overall.
+
+🧠 Topic Modeling (LDA)
+
+Latent Dirichlet Allocation (LDA) is used to extract:
+
+🎭 Major discussion themes
+
+🎬 Common movie review topics
+
+🗂 Semantic patterns
+
+📌 Applications
+
+Movie Review Classification
+
+Social Media Sentiment Analysis
+
+Product Review Mining
+
+Opinion Mining
+
+NLP Learning Projects
+
+🛠 Tech Stack
+
+Python
+
+Jupyter Notebook
+
+Scikit-learn
+
+NLTK
+
+Pandas
+
+Matplotlib & Seaborn
+
+
+📜 License
+
+This project is licensed under the MIT License — feel free to use, modify, and distribute.
